@@ -1,0 +1,54 @@
+.App {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;             
+}
+
+textarea {
+  border-radius: 10px;
+  resize: none;
+  border-color: rgb(209, 209, 209);
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;  
+  color: white;
+  background-color:rgb(13, 110, 255);  
+  box-shadow: 0px 1px 1px 1px rgba(13, 110, 255, 0.3);
+}
+
+button:hover {
+  background-color:rgb(124, 186, 248);
+  cursor:pointer
+}
+
+.box {
+  box-shadow: 0px 1px 1px 1px rgba(148, 148, 148, 0.3);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.copy-quote {
+  border-left: 4px solid #aaa;    
+  color: #555;
+  font-style: italic;
+  background-color: #f9f9f9;  
+  margin-left: 3px;
+}
+
+.copy-quote:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+
