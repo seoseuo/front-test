@@ -192,7 +192,6 @@ https://github.com/user-attachments/assets/fffca75c-cb64-438a-a61f-79d711438857
 
 > 만약 홀수 차수 정점이 2개보다 많으면 오일러 경로는 존재하지 않습니다.
 
-[코드 링크](https://github.com/seoseuo/front-test/blob/master/react/front-test-app/src/components/Graph.js)
 
 - ES6이상 문법으로 작성할 것.
 - 함수의 입력은 각 노드의 이웃 노드들을 나열한 인접 리스트 형태의 2차원 배열입니다.
@@ -206,6 +205,7 @@ https://github.com/user-attachments/assets/fffca75c-cb64-438a-a61f-79d711438857
 
 ![image](https://github.com/user-attachments/assets/797064b6-23f7-47d2-9876-5c0ee3fd2182)
 
+[코드 링크](https://github.com/seoseuo/front-test/blob/master/react/front-test-app/src/components/Graph.js)
 
 **`그래프 1` 배열 입력**
 > ['A', 'B'], ['A', 'D'], ['B', 'D'], ['B', 'C'], ['B', 'E'], ['C', 'E'], ['C', 'D'], ['D', 'E']
