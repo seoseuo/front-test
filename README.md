@@ -160,14 +160,13 @@ https://github.com/user-attachments/assets/1b00f87a-8a5b-41fb-b50b-777aaf5082a3
 
 ### 2. 라이브러리 활용
 
-마크다운을 파싱하기 위한 대표적인 라이브러리 `marked`(https://www.npmjs.com/package/marked)가 있다.
-
-[코드 링크](https://github.com/seoseuo/front-test/blob/master/react/front-test-app/src/components/MarkedRenderer.js)
+마크다운을 파싱하기 위한 대표적인 라이브러리 `marked`(https://www.npmjs.com/package/marked) 가 있다.
 
 1. `marked`가 제공하는 `renderer` 옵션을 사용해서 `H1`, `H2`, `H3` `Heading`에 `anchor`를 추가하시오.
 2. 인용문을 클릭하면 인용문을 복사하는 기능을 추가하시오.
 3. `textarea`에 작성한 마크다운 텍스트를 파싱해서 화면에 출력하시오.
 
+[코드 링크](https://github.com/seoseuo/front-test/blob/master/react/front-test-app/src/components/MarkedRenderer.js)
 
 
 https://github.com/user-attachments/assets/fffca75c-cb64-438a-a61f-79d711438857
@@ -180,6 +179,18 @@ https://github.com/user-attachments/assets/fffca75c-cb64-438a-a61f-79d711438857
 주어진 `그래프 1` 에서 임의의 노드로부터 시작하여 모든 간선을 한 번만 지나는 경로가 있는
 지 확인하고, 경로가 존재한다면 그 경로를 return하는 자바스크립트 함수를 작성하시오.
 또한 경로가 존재하기 위한 조건이 무엇인지 설명하시오
+
+### 경로가 존재하기 위한 조건
+모든 간선을 한 번씩만 지나나는 경로를 오일러 경로라고 합니다.  
+오일러 경로가 존재하려면 다음 조건 중 하나를 만족해야 합니다.
+
+1. 모든 정점의 차수가 짝수일 경우
+→ 오일러 회로(시작점 = 끝점)도 존재합니다.
+
+2. 차수가 홀수인 정점이 정확히 2개일 경우
+→ 오일러 경로는 존재하지만, 시작점과 끝점이 달라야 합니다.
+
+> 만약 홀수 차수 정점이 2개보다 많으면 오일러 경로는 존재하지 않습니다.
 
 [코드 링크](https://github.com/seoseuo/front-test/blob/master/react/front-test-app/src/components/Graph.js)
 
@@ -201,6 +212,7 @@ https://github.com/user-attachments/assets/fffca75c-cb64-438a-a61f-79d711438857
 
 
 https://github.com/user-attachments/assets/af47f40d-b176-49ce-8bc9-b48e05c6f3e8
+
 
 ---
 
